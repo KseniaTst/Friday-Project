@@ -8,6 +8,6 @@ let Rootreducer = combineReducers({
 
 export type RootStoreType = ReturnType<typeof Rootreducer>
 
-let store = createStore(Rootreducer, applyMiddleware())
+let store = createStore(Rootreducer)
 
 export default store
