@@ -1,0 +1,27 @@
+.default {
+border: darkmagenta;
+    margin: 5px;
+
+}
+.default:hover{
+    background: #ddec13;
+    transition: all 500ms ease-out;
+    box-shadow: 0 0 0 1px #f90914,
+    0 0 0 5px #e89a36,
+    0 0 0 7px #e7d558,
+    0 0 5px 8px #6a8a0b;
+}
+
+
+.red {
+    background: blueviolet;
+    color: aliceblue;
+ hover:red
+
+}
+.filt {
+    background: darkmagenta;
+}
+.add{
+    background: darkorchid;
+}
